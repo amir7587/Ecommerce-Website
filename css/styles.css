@@ -1,0 +1,442 @@
+title {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #FF9900;
+  color: #FFF;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Navigation Bar */
+.navbar {
+  font-size: 15px;
+  margin-bottom: 75px;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.feedback {
+  position: relative;
+  right: 80px;
+}
+.submit-btn {
+  position: relative;
+  top: 50px;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 4.95%;
+  text-align: left;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* inspiring Image */
+.sub-text-img {
+height: 25rem;
+width: auto;
+position: relative;
+left: 100px;
+
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  /* z-index: 1; */
+}
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-img {
+  color: #fccb8f;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.feature-img:hover {
+  color: #FF9900;
+}
+
+.feature-description {
+  /* color: #8F8F8F; */
+  width: 60%;
+  margin: 0 auto;
+}
+
+.col-lg-4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Testimonials Section */
+#Carousel {
+  background-color: #fccb8f;
+}
+
+.carousel-heading {
+  font-size: 3rem;
+  font-weight: lighter;
+  position: relative;
+  top: 70px;
+  text-decoration: underline;
+}
+
+.carousel-img {
+  height: 500px;
+  width: auto;
+}
+
+.carouselDesc {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  top: 40px;
+}
+
+.carousel-item-title {
+  padding: 40px 0;
+}
+
+.carousel-item-title-img {
+  height: 300px;
+  width: 500px;
+}
+
+.chef-credit {
+  font-weight: lighter;
+  padding: 10px 0;
+}
+
+.ingredients-section {
+  padding: 10px 10px;
+}
+
+.ingredient-list-item {
+  text-align: left;
+}
+
+.ingredient-sub-heading {
+  text-align: left;
+  position: relative;
+  left:25px;
+}
+
+.directions {
+  text-align: left;
+  width: 50%;
+}
+
+.directions-section {
+  padding: 20px 0;
+}
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol > li {
+  margin: 0;
+  padding: 1rem 0 0 2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}
+
+.light-coloured-section {
+  background-color: #FCCB8F;
+}
+
+.cooksNote {
+  text-align: left;
+  padding-left: 25px;
+  width: 25%;
+  color: #fff;
+}
+
+.signUp-page-navbar {
+  padding: 5px 20px;
+}
+
+.brand-name {
+  position: relative;
+  top: 30px;
+}
+
+.inputDetails {
+  padding: 20px 0;
+}
+
+.row {
+  padding: 20px 10px;
+  margin: 0 10px;
+  /* width: 50%; */
+}
+
+.username {
+  margin: 0 25px;
+  /* width: 47%; */
+}
+
+.form {
+  position: relative;
+  width: 60%;
+}
+
+.signUp-btn {
+  position: relative;
+  bottom: 85px;
+  /* left: 250px; */
+}
+
+  #title {
+    text-align: center;
+  }
+
+/* Footer */
+#cta {
+  padding: 7% 17% 3% 17%;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+.social-button {
+  color: #343a40;
+  font-size: 1.25rem;
+  margin: 20px 10px;
+}
+
+.copyright {
+  color: grey;
+  font-weight: 500;
+}
+
+.navbar div a{
+  font-size:25px;
+   color:white;
+   font-weight:bold;
+  text-decoration:none;
+  }
+  
+  .navbar div a:hover{
+  
+   color:yellow;
+  text-decoration:underline;
+   
+  
+  }
+  
+  .card{
+    width:40%;
+    height:350px;
+    background-color:white;
+    border-radius:50px;
+    margin:3%;
+    text-align:center;
+    background-color: whitesmoke;  
+    
+  }
+  .cardcontainer{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+  
+  }
+  .maincontainer{
+  height:100px;
+  width:100%;
+  background-color:#f1f1f1;
+  margin-top:5%;
+  display:flex;
+  justify-content:center;;
+  padding-top:7%;
+  
+  
+  
+  
+  
+  }
+  .maincontainer .socialmedia{
+  padding-top:5%;
+  margin-left:25%;
+  margin-right:25%;
+  
+  
+  }
+  .maincontainer .copyright{
+  margin-left:5%;
+  margin-right:15%;
+  
+  }
+  .calldetails{
+  margin-right:5%;
+  margin-left:15%;
+  }
+  
+  
+  .fa-facebook-square:hover {
+    transform: scale(1.5);
+    width:50px;
+    height:40px;
+    background-color:yellow;
+    border-radius:100px;
+    padding-top:10px;
+    align-items:center;
+    text-align:center;
+  
+  }
+  .fa-instagram:hover {
+    transform: scale(1.5);
+    width:50px;
+    height:40px;
+    background-color:yellow;
+    border-radius:100px;
+    padding-top:10px;
+    align-items:center;
+    text-align:center;
+  
+  }
+  
+  .fa-twitter:hover {
+    transform: scale(1.5);
+    width:50px;
+    height:40px;
+    background-color:yellow;
+    border-radius:100px;
+    padding-top:10px;
+    align-items:center;
+    text-align:center;
+  
+  }
+  
+  .fa-youtube:hover {
+    transform: scale(1.5);
+    width:50px;
+    height:40px;
+    background-color:yellow;
+    border-radius:100px;
+    padding-top:10px;
+    align-items:center;
+    text-align:center;
+  
+  }
+  
+  .fa-github:hover {
+    transform: scale(1.5);
+    width:50px;
+    height:40px;
+    background-color:yellow;
+    border-radius:100px;
+    padding-top:10px;
+    align-items:center;
+    text-align:center;
+  
+  }
+  
+  
+  
+  .aboutcontainer{
+   width:85%;
+   height:350px;
+   margin-left:auto;
+   margin-right:auto;
+   background-color:white;
+   border-radius:50px;
+   margin-top:5%;
+  text-align:center;
+  font-size:20px;
+  padding-top:1px;
+  }
+  
+  .cardcontainer .card a img:hover{
+  width:350px;
+  height:250px;
+  }
+  
+  
+  .listcard{
+    width:50%;
+    height:250px;
+    background-color:white;
+    border-radius:50px;
+    margin:3%;
+    display:flex;
+    justify-content:center;
+    padding-top:2%;
+  padding-left:2%;
+    
+    
+    
+  }

@@ -1,0 +1,110 @@
+.orange-theme {
+  background-color: #ff9900;
+  color: #fff;
+  font-family: 'Montserrat', serif;
+}
+
+.white-theme {
+  background-color: #fff;
+  color: #ff9900;
+  font-family: 'Montserrat', serif;
+}
+
+#navbar {
+  padding: 20px;
+}
+
+#brand-title {
+  position: absolute;
+  top: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', serif;
+}
+
+#sub-text {
+
+}
+
+#features {
+  margin: 0 auto;
+  padding: 10% 12.5%;;
+}
+
+.navbar-links {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 20px;
+  font-size: 1.5rem;
+  position: relative;
+  left: 800px;
+}
+
+.sub-text-img {
+height: 25rem;
+width: auto;
+position: relative;
+left: 100px;
+}
+
+p {
+  display: inline-block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 55px;
+  display: inline-block;
+  width: 50%;
+  padding-left: 20px;
+  text-align: left;
+  position: relative;
+  bottom: 130px;
+}
+
+.features{
+  margin: 13.5% 10% 12%;
+}
+
+.feature-title {
+  color:#000;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #8F8F8F;
+  width:40%;
+  font-weight: 400;
+  position: relative;
+  bottom: 35px;
+  left: 20px;
+}
+.feature-icon {
+  font-size: 4rem;
+  position: relative;
+  right: 90px;
+}
+.featurette {
+  margin-left: 8%;
+}
+#carousel {
+  background-color: #fccb8f;
+}
+
+.carousel-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-description {
+  font-size: 3rem;
+  line-height: 1.5;
+}
