@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function validate()
+    {
+       var x=document.getElementById('pp').value;
+       if(x)
+       alert('Dear user,Your Order has been Successfully Placed!');
+       else
+       alert('please fill all the details');
+    }
+  </script>
+<title>Delivery and Payment</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+ <style>
+   .outercontainer{
+     padding:20px;
+     height:auto;
+     margin-left:auto;
+     border:10px solid grey;
+     width:41%;
+     margin-right:auto;
+    
+     
+   }
+  .innercontainer{
+      display:grid;
+      grid-template-columns:50% 50%;
+      justify-content:center;
+      border:2px solid grey;
+      border-radius:4px;
+      grid-gap:1em;
+   
+      
+  }
+  .item1{
+    grid-column: 1/span 2;
+     margin-top:5%;
+  
+   margin-left:5%;
+   }
+  .middlecontainer{
+    background-color:#00FF7F;
+    height:80px;
+    text-align:center;
+    font-size:30px; 
+    padding-top:25px;
+ 	border:2px solid grey;
+      border-radius:5px;
+  }
+  .inputcontainer{
+   width:90%;
+   height:35px;
+   margin-top:2%;
+font-family:Arial, FontAwesome;
+ 
+   
+  }
+  .itemcontainer{
+   margin-left:10%;
+   margin-top:5%;
+   
+  }
+
+.separator {
+    display: flex;
+    grid-column: 1/span 2;
+    align-items: center;
+    text-align: center;
+   color:#32CD32;
+   margin-bottom:2%;
+   margin-left:5%;
+   margin-right:5%;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid grey;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+  
+ </style>
+</head>
+<body>
+    
+       <div class="outercontainer">
+         <div class="middlecontainer">
+           <i class="fa fa-calendar" aria-hidden="true" style="margin:2%;"></i>Delivery & Payment
+         </div>
+          <div class="innercontainer">
+            <div class="item1">
+             Please Enter Your Name
+             </br>
+            <input type="text" required style="width:95%;height:35px;font-family:Arial, FontAwesome" name="cname" placeholder="&#xf007; Name"/>
+
+            </div>
+             <div class="itemcontainer">
+              Email Address
+             </br>
+            <input id ="pp" class="inputcontainer" type="email" required name="cmail" placeholder="&#xf0e0; Email"/>
+              </br>
+	       Please enter a valid email address.
+            </div>
+            <div class="itemcontainer">
+              Mobile/Telephone
+             </br>
+            <input class="inputcontainer" type="text" required name="cmobile" placeholder="&#xf098; Mobile"/>
+               </br>
+	       This field is required.
+            </div>
+            <div class="itemcontainer">
+              Address
+             </br>
+            <input class="inputcontainer" type="text" name="cadult" placeholder="&#xf0c0; Address "/>
+                </br>
+	       Please enter a valid number.
+            </div>
+            <div class="itemcontainer">
+              Pincode
+             </br>
+            <input class="inputcontainer" type="number" name="cpin" placeholder="&#xf0c0; Pincode"/>
+            </div>
+            <div class="itemcontainer">
+              State
+             </br>
+            <input  class="inputcontainer" type="text" required name="State" State/>
+            </div>
+            <div class="itemcontainer">
+              Payment
+             </br>
+            <input class="inputcontainer" type="text" name="ccheckout" Enter card Details/>
+            </div>
+            <div class="itemcontainer">
+              Payment Mode
+              <br>
+               <input type="radio" id="mode1" value="Paytm">
+               <label for="mode1">Paytm</label>
+               <br>
+               <input type="radio" id="mode2" value="Paytm">
+               <label for="mode2">UPI</label>
+               <br>
+               <input type="radio" id="mode3" value="Paytm">
+               <label for="mode3">Debit Card</label>
+               <br>
+            </div>
+		 <div class="separator">PLEASE ANSWER THESE QUESTIONS FOR PLEASENT STAY</div>
+          </div>
+        <div style="justify-content:center;display:flex;margin-top:5%;">
+         <button onclick="validate()"> SUBMIT</button>
+        </div>
+       </div>
+   
+<body>
+</html>
